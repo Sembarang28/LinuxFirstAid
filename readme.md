@@ -8,7 +8,7 @@ Welcome to **Linux First Aid**, a comprehensive guide and toolset for configurin
 
 - **Ubuntu**
 
--   **Arch** (Not Tested)
+-   **Arch** (The Nvidia install script hasn't been tested)
   
 -   **Fedora** (Coming Soon...)
 
