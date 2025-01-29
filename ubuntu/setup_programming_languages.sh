@@ -15,7 +15,7 @@ dotnet --version
 
 # Install Java
 echo -e "\n\nInstalling Java (OpenJDK JRE)..."
-sudo apt install -y default-jre
+sudo apt install -y default-jre default-jdk
 java -version
 
 # Install Kotlin
