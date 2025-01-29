@@ -55,15 +55,25 @@ If you don't need a specific package or configuration from the script, simply co
 
 ## How to Use
 1. Clone this repository
-```git clone https://github.com/Sembarang28/LinuxFirstAid.git```
+```
+  git clone https://github.com/Sembarang28/LinuxFirstAid.git
+```
 2. Navigate to the directory
-```cd LinuxFirstAid```
+```
+  cd LinuxFirstAid
+```
 3. Navigate to directory based on your linux distribution (example ubuntu)
-```cd ubuntu```
+```
+  cd ubuntu
+```
 4. Make Scripts Executable
-```chmod +x *.sh```
+```
+  chmod +x *.sh
+```
 5. Run the script you need (example running setup_essentials.sh script)
-```./running setup_essentials.sh```
+```
+  ./running setup_essentials.sh
+```
 
 ## Included Scripts
 
