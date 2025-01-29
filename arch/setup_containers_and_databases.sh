@@ -21,13 +21,6 @@ echo -e "\nInstalling Podman...\n"
 sudo pacman -S podman --noconfirm
 podman --version
 
-# Install MySQL
-echo -e "\nInstalling MySQL...\n"
-sudo pacman -S mysql --noconfirm
-sudo systemctl enable mysqld
-sudo systemctl start mysqld
-mysql --version
-
 # Install PostgreSQL
 echo -e "\nInstalling PostgreSQL...\n"
 sudo pacman -S postgresql --noconfirm

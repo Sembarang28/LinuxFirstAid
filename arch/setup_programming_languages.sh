@@ -16,7 +16,7 @@ dotnet --version
 
 # Install Java
 echo -e "\n\nInstalling Java (OpenJDK JRE)..."
-sudo pacman -S jre-openjdk --noconfirm
+sudo pacman -S jdk-openjdk --noconfirm
 java -version
 
 # Install Kotlin
@@ -25,8 +25,8 @@ sudo pacman -S kotlin --noconfirm
 kotlin -version
 
 # Install JavaScript and TypeScript
-echo -e "\n\nInstalling Node.js and npm..."
-sudo pacman -S nodejs npm --noconfirm
+echo -e "\n\nInstalling Node.js v22 and npm..."
+sudo pacman -S nodejs-lts-jod npm --noconfirm
 node --version
 npm --version
 sudo npm install -g typescript ts-node
@@ -45,9 +45,7 @@ pip --version
 
 # Install Rust
 echo -e "\n\nInstalling Rust..."
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
-rustc --version
+sudo pacman -S rust --noconfirm
 
 # Install Ruby
 echo -e "\n\nInstalling Ruby..."
@@ -56,7 +54,7 @@ ruby --version
 
 # Install PHP
 echo -e "\n\nInstalling PHP..."
-sudo pacman -S php php-cli php-cgi php-mysql php-sqlite php-pgsql --noconfirm
+sudo pacman -S php php-cli php-cgi php-sqlite php-pgsql --noconfirm
 php --version
 
 # Install Dart
