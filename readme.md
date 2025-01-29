@@ -72,7 +72,7 @@ If you don't need a specific package or configuration from the script, simply co
 ```
 5. Run the script you need (example running setup_essentials.sh script)
 ```
-  ./running setup_essentials.sh
+  ./setup_essentials.sh
 ```
 
 ## Included Scripts
