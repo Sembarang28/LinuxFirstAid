@@ -4,7 +4,7 @@ Welcome to **Linux First-Time Setup**, a comprehensive guide and toolset for con
 
 **LinuxFirstAid** is a comprehensive setup script for quickly preparing a Linux environment for development, gaming, and machine learning. It is designed to simplify the initial configuration of Linux systems, providing tools and environments that users commonly need right after installation.	
 
-## Linux Distrubition Support
+## Linux Distribution Support
 
 - **Ubuntu**
 
