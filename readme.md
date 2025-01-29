@@ -82,6 +82,9 @@ If you don't need a specific package or configuration from the script, simply co
     - Install fish shell.
     - Change default shell to fish shell
     - Install curl
+    - Install wget
+    - Install Firefox
+    - Install Google Chrome
     - Install Zoxide
     - Install git
     - Install Visual Studio Code
