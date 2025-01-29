@@ -1,6 +1,6 @@
 # Linux First Aid
 
-Welcome to **Linux First-Time Setup**, a comprehensive guide and toolset for configuring your Linux environment quickly and efficiently. This project provides automated scripts for setting up essential tools, NVIDIA drivers, Docker, and other development utilities tailored for a productive experience.
+Welcome to **Linux First Aid**, a comprehensive guide and toolset for configuring your Linux environment quickly and efficiently. This project provides automated scripts for setting up essential tools, NVIDIA drivers, Docker, and other development utilities tailored for a productive experience.
 
 **LinuxFirstAid** is a comprehensive setup script for quickly preparing a Linux environment for development, gaming, and machine learning. It is designed to simplify the initial configuration of Linux systems, providing tools and environments that users commonly need right after installation.	
 
@@ -10,7 +10,7 @@ Welcome to **Linux First-Time Setup**, a comprehensive guide and toolset for con
 
 -   **Arch** (Not Tested)
   
--   **Fedora** (Coming Soon..)
+-   **Fedora** (Coming Soon...)
 
 ## Features
 

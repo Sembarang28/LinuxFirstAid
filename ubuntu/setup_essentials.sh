@@ -7,11 +7,23 @@ sudo apt update && sudo apt upgrade -y
 echo -e "\nInstalling fish shell...\n"
 sudo apt install fish -y
 
-echo -e "\nChanging default shell to Fish...\n"
+echo -e "\nChanging login shell to Fish...\n"
 sudo chsh -s $(which fish)
 
 echo -e "\nInstalling CURL...\n"
 sudo apt install curl -y
+
+echo -e "\nInstalling Mozilla Firefox\n"
+sudo apt install -y firefox
+
+echo -e "\Download Google Chrome...\n"
+sudo apt install -y wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+echo -e "\Installing Google Chrome...\n"
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+# During the installation process, it's possible that might encounter some dependency errors. so it need to run fix-broken install
+sudo apt --fix-broken install
 
 echo -e "\nInstalling Zoxide...\n"
 sudo apt install zoxide -y
@@ -35,4 +47,4 @@ echo -e "\nInstalling Neovim...\n"
 sudo apt install neovim -y
 nvim --version
 
-echo -e "\nReboot your system if you want to change default shell to fish\n"
+echo -e "\nReboot your system if you want to change login shell to fish\n"
