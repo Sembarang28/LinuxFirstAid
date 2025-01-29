@@ -63,7 +63,7 @@ If you don't need a specific package or configuration from the script, simply co
 4. Make Scripts Executable
 ```chmod +x *.sh```
 5. Run the script you need (example running setup_essentials.sh script)
-```./running setup_essentials.sh				```
+```./running setup_essentials.sh```
 
 ## Included Scripts
 
